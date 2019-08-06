@@ -31,7 +31,7 @@
 		OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 		SOFTWARE.
 	</license>
-	<version>0.0.1</version>
+	<version>0.0.3</version>
 	<description>Management of a world of warcraft classic guild</description>
 
 	<update>
@@ -43,11 +43,15 @@
 	<files folder="site">
 		<filename>index.html</filename>
 		<filename>ClassicGuild.php</filename>
+		<filename>controller.php</filename>
+		<folder>views</folder>
+		<folder>models</folder>
 	</files>
 
 	<administration>
 		<!-- Administration Menu Section -->
 		<menu link='index.php?option=com_ClassicGuild'>Guild Management</menu>
+		<menu link='index.php?option=com_ClassicGuild'>Guild Management 2</menu>
 		<!-- Administration Main File Copy Section -->
 		<files folder="admin">
 			<!-- Admin Main File Copy Section -->
